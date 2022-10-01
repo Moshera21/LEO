@@ -1,0 +1,438 @@
+@font-face {
+	font-family: 'PTSerif-Caption';
+	src: url('../fonts/PT_Serif-Caption-Web-Regular.eot');
+	src: local('☺'), url('../fonts/PT_Serif-Caption-Web-Regular.woff') format('woff'), url('../fonts/PT_Serif-Caption-Web-Regular.ttf') format('truetype'), url('../fonts/PT_Serif-Caption-Web-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+body {
+	background-color: #fdfdfd;
+	font-family: Arial, Helvetica, sans-serif;
+	min-width: 960px;
+	margin: 0;
+}
+img {
+	border: 0;
+}
+ .wrapper {
+	width: 960px;
+	margin: 0 auto;
+} 
+.clearfix:after {
+	clear:both;
+	/* content:""; */
+	display:block;
+	height:1%;
+	line-height:0;
+	visibility:hidden;
+} 
+/*------------------------------ HEADER ------------------------------*/
+
+/*------------------------------ HEADER ------------------------------*/
+#header  {
+	position: fixed;
+    /* visibility: inherit; */
+	background-color: #020a13;
+	height: 50px;
+	width: -webkit-fill-available;
+	padding: 16px 0 0;
+	text-align: right;
+}
+/** Logo **/
+#logo {
+	/* background: url(../images/LEO\ logo\ white.png) no-repeat center top; */
+	/*  */
+	float: left;
+	
+}
+#logo h2 {
+	margin: initial;
+}
+/** Navigation **/
+#navigation {
+	display: inline-block;
+	height: 30px;
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+	*width: 516px; 
+}
+#navigation li {
+	float: left;
+	margin: 0 25px;
+}
+#navigation li:first-child {
+	margin-left: 0;
+}
+#navigation li a {
+	color: #efefef;
+	line-height: 30px;
+	padding: 0;
+	text-decoration: none;
+}
+#navigation li a:hover, #navigation li.selected a {
+	color: #44b2f1;
+}
+/*------------------------------ CONTENTS ------------------------------*/
+#contents {
+	background-color: #fbfdfd;
+	margin: 0 0 50px;
+	padding: 68px 0 0;
+}
+#contents h1{
+	color: #000000;
+	font-size: 40px;
+	margin: revert;
+}
+#contents p {
+	color: #000000;
+	font-size: 14px;
+	line-height: 24px;
+	margin: 68;
+	padding-right: 586px;
+	text-align: start;
+}
+
+#contents .body {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+#contents .main{
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+
+}
+
+/** adbox **/
+#adbox {
+	background: #020a13 url(../images/307385123_5593735177349928_8218718003850477649_n.jpg) no-repeat center top;
+	background-size: cover;
+	min-height: 433px;
+	margin: -56px 0 22px;
+
+}
+#adbox .wrapper {
+
+	width: 960px;
+	padding: 54px 10px 26px;
+}
+#adbox .info h1{
+	width: 100%;
+	
+}
+#adbox .info {
+	height: 644px;
+	width: 100%;
+	overflow: inherit;
+	text-align: center;
+	padding: 7px 6px;
+}
+#adbox h1 {
+	color: #ffffff;
+	text-align: center;
+	font-size:80px;
+	font-style: italic;
+	line-height: 194px;
+}
+
+#adbox p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+	line-height: 24px;
+}
+/* -------------------Basic------------- */
+#basic {
+	background-color: #fbfdfd;
+	margin: 80px;
+	padding: 86px 35px 353p
+}
+#basic   p{
+	
+	color: #000000;
+	line-height: 28px;
+	padding-right: 686px;
+	text-align: justify;
+}
+.main .txt1{
+padding: 60px;
+}
+.main .txt1 p{
+	padding: 50px;
+	font-size: 20px;
+	
+}
+.main .txt1 h1{
+	text-align: center;
+	font-size: 60px;
+}
+
+
+  .main .immg1 {
+	float: right;
+}
+
+#immg2 {
+	background: #020a13 url(../images/Brasil\ vai\ lançar\ satélite\ que\ será\ responsável\ por\ monitorar\ região\ amazônica\ -\ Conexão\ Política.jpg) no-repeat center top;
+	background-size: cover;
+	min-height: 433px;
+	margin: 0 0 22px;
+}
+#immg2   p{
+	
+	color: #000000;
+	line-height: 28px;
+	    margin: 8px 137px 0px;
+	padding-right: 300px;
+	text-align: end;
+	padding: 60px;
+}
+.main .txt2 {
+	background-color: #ffffff;
+	width: fit-content;
+	height: 300px;
+	opacity: 0.8;
+	
+}	
+.main .txt2 p{
+		font-size: 20px;
+}
+
+.main .txt2 h1{
+	text-align: center;
+}
+/* -------------join us----------------- */
+
+.containe{
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    margin: auto;
+    color: #1D67CD;
+  }
+  .columns{
+    display: flex;
+    flex-direction: column;
+  }
+  .rows{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .submit{
+    width: 190px;
+    margin: auto;
+    background-color: #1D67CD;
+    height: 20px;
+    font-weight: bold;
+  }
+  ::placeholder{
+    color: #1D67CD;
+    font-weight: bold;
+  }
+  *{
+    border-color: #1D67CD;
+  }
+  .size{
+    width: 210px;
+    height: 30px;
+  }
+  #text{
+    width: 100%;
+    height: 100px;
+  }
+  #find{
+    height: 36px;
+  }
+  #email{
+    height: 30px;
+  }
+  /* ---------------Resources------------ */
+
+  .container{
+    background-size: cover;
+	width: 100%;
+	min-height: 433px;
+	margin: -56px 0 22px;
+  }
+  .text{
+    position: absolute;
+    color:white;
+    font-size: 100px;
+    top: 15%;
+    left:37%;
+  }
+  img{
+    /* width:100% */
+	width: 53px;
+    margin: 12px
+  }
+  .text{
+    width:50%;
+    margin: auto;
+    padding-top: 20px;
+  
+  }
+  
+  span{
+    font-weight: bold;
+    font-size: 30px;
+  
+  }
+  ol{
+	list-style: inside;
+  }
+  /* --------------------sign in------------------------ */
+  form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 5px auto 5px auto 5px auto 5px auto 5px auto 5px 5px;
+    grid-gap: 20px;
+    width:500px;
+    margin-top:50px;
+    margin-left: 150px;
+  
+  }
+  .grid-item{
+    grid-column: span 2;
+  }
+  .grid-item-name{
+    background-color: rgba(207, 201, 201, 0.5) ;
+    border: none;
+  }
+  .grid-item-input{
+    grid-column: span 2;
+    background-color: rgba(207, 201, 201, 0.5) ;
+    border: none;
+  }
+  p, h1 {
+    text-align: center;
+    margin: 0%;
+    padding:0%
+  }
+  .submit{
+    background-color: #1D67CD;
+    border-color: #1D67CD;
+    grid-column: span 2;
+    color: white;
+    height:30px;
+    cursor: pointer;
+  }
+  *{
+    color: rgb(51,51,51);
+  }
+  .container{
+    display: flex;
+    justify-content: space-between;
+  }
+  img{
+    width: 100%;
+    margin: 50px;
+  }
+  
+  
+  
+/*------------------------------ FOOTER ------------------------------*/
+
+.footer {
+    background-color: #dedee5;
+    color: #fff;
+    padding: 4em;
+    display: inherit;
+    justify-content: space-between;
+}
+
+.footer span{
+	font-size: 15px;
+}
+.footer-title {
+    font-size: 1.0em;
+    font-weight: 600;
+	  text-align: center;
+}
+.footer .social-icons a{
+    font-size: 1.6em;
+    padding: 0 12px 0 0;
+	color: #000;
+}
+/* --------------training------------------- */
+
+#training {
+	bottom: 15px;
+	margin: 0 0 50px;
+	padding:  1px 0 0 ;
+}
+
+/* ------------------Courses---------------------- */
+#courses {
+	margin: 0 0 50px;
+	padding:  1px 0 0 ;
+}
+
+#feature {
+	list-style: none;
+	margin: 80px;
+	padding: 0px 10px;
+}
+#feature li {
+	padding: 10px;
+	float: left;
+	width: 220px;
+	margin: 0px 70px;
+	text-align: center;
+
+}
+ #categ {
+	font-size: 30px;
+	list-style: none;
+	margin: 80px;
+	padding: 0px 10px;
+}
+#categ li {
+	padding: 10px;
+	float: left;
+	width: 220px;
+	margin: 0px 70px;
+	text-align: center;
+
+}
+
+
+/** featured **/
+
+#featured {
+	
+	display: block;
+	list-style: none;
+	width: 960px;
+	margin: 0 auto;
+	padding: 35px 0;
+}
+#featured li {
+	
+	float: left;
+	width: 220px;
+	margin: 0 10px;
+	text-align: center;
+}
+#featured li img{
+	left: 20px;
+}
+
+
+
+
